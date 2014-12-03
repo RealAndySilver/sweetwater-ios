@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="sde-Ke-WUJ">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="PAx-tY-o5X">
+            <objects>
+                <navigationController definesPresentationContext="YES" id="sde-Ke-WUJ" sceneMemberID="viewController">
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" barStyle="black" prompted="NO"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="black" id="v9k-lw-NZj">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="2" kind="relationship" relationship="rootViewController" id="Afo-Ru-4KW"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="18W-b3-HXq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-676" y="-10"/>
+        </scene>
+        <!--Main Menu View Controller-->
+        <scene sceneID="OYd-mh-lSO">
+            <objects>
+                <viewController storyboardIdentifier="MainMenu" id="BQr-fz-BY4" customClass="MainMenuViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Le8-Pc-6W6">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <navigationItem key="navigationItem" id="hoR-W1-YSc"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dgG-sz-6ss" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="105" y="-22"/>
+        </scene>
+        <!--Create Vendor View Controller-->
+        <scene sceneID="dwT-4F-0bv">
+            <objects>
+                <viewController storyboardIdentifier="CreateVendor" id="whH-ss-xYg" customClass="CreateVendorViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ASp-uc-snZ">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mrK-ak-YxZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-549" y="876"/>
+        </scene>
+        <!--Edit Vendor View Controller-->
+        <scene sceneID="glr-rk-XH2">
+            <objects>
+                <viewController storyboardIdentifier="EditVendor" id="ivy-WT-AQl" customClass="EditVendorViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="46m-Pg-g9T">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Xaw-qw-zsy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-195" y="876"/>
+        </scene>
+        <!--Vendor List View Controller-->
+        <scene sceneID="97X-63-QI5">
+            <objects>
+                <viewController storyboardIdentifier="VendorList" id="v6b-6U-uav" customClass="VendorListViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Jjf-St-Cb7">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PEa-sR-obe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="197" y="881"/>
+        </scene>
+        <!--Delivery List View Controller-->
+        <scene sceneID="CSb-1t-4Jm">
+            <objects>
+                <viewController storyboardIdentifier="DeliveryList" id="MKI-Nq-7Wo" customClass="DeliveryListViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="6eQ-er-bfo">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2ad-gz-0wN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1312" y="1569"/>
+        </scene>
+        <!--Edit Delivery View Controller-->
+        <scene sceneID="7of-ng-Nyh">
+            <objects>
+                <viewController storyboardIdentifier="EditDelivery" id="W4Z-P7-zn3" customClass="EditDeliveryViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="EEG-ya-fUq">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zqD-Et-nXx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1291" y="2309"/>
+        </scene>
+        <!--User Delivery List View Controller-->
+        <scene sceneID="HSM-kJ-EiJ">
+            <objects>
+                <viewController storyboardIdentifier="UserDeliveryList" id="t96-vy-OwV" customClass="UserDeliveryListViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Rs9-Gs-wzC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PsP-qX-qpQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-951" y="1571"/>
+        </scene>
+        <!--Search User View Controller-->
+        <scene sceneID="0dc-aw-7KV">
+            <objects>
+                <viewController storyboardIdentifier="SearchUser" id="ccY-Tp-E2B" customClass="SearchUserViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="1HK-Gk-ijQ">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="singleLineEtched" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" id="w2z-BY-rkx">
+                                <rect key="frame" x="0.0" y="88" width="326" height="480"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="ccY-Tp-E2B" id="hXF-NU-i8J"/>
+                                    <outlet property="delegate" destination="ccY-Tp-E2B" id="XGv-pu-t77"/>
+                                </connections>
+                            </tableView>
+                            <view contentMode="scaleToFill" id="1ff-hK-lWw">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="88"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bordered" selectedSegmentIndex="0" id="SHo-67-rZ3">
+                                        <rect key="frame" x="11" y="52" width="298" height="29"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <segments>
+                                            <segment title="Nombre"/>
+                                            <segment title="Teléfono"/>
+                                            <segment title="Indicación"/>
+                                            <segment title="Dirección"/>
+                                        </segments>
+                                        <connections>
+                                            <action selector="segmentedControlIndexChanged:" destination="ccY-Tp-E2B" eventType="valueChanged" id="e9G-cv-C1z"/>
+                                        </connections>
+                                    </segmentedControl>
+                                    <searchBar contentMode="redraw" id="ej9-Gb-3Gr">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                        <connections>
+                                            <outlet property="delegate" destination="ccY-Tp-E2B" id="MQE-AP-MIu"/>
+                                        </connections>
+                                    </searchBar>
+                                </subviews>
+                                <color key="backgroundColor" red="0.12941176470588234" green="0.12941176470588234" blue="0.12941176470588234" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <connections>
+                        <outlet property="headerContainer" destination="1ff-hK-lWw" id="xze-TZ-le6"/>
+                        <outlet property="leftSearchBar" destination="ej9-Gb-3Gr" id="IUV-pJ-BUA"/>
+                        <outlet property="searchDisplayController" destination="Xha-Jo-JUg" id="MoL-wf-FqP"/>
+                        <outlet property="segmentedControl" destination="SHo-67-rZ3" id="bYy-FV-PWM"/>
+                        <outlet property="tableview" destination="w2z-BY-rkx" id="vcd-HI-XTy"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="75Y-JZ-2YV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <searchDisplayController id="Xha-Jo-JUg">
+                    <connections>
+                        <outlet property="delegate" destination="ccY-Tp-E2B" id="nD7-q4-bcK"/>
+                        <outlet property="searchBar" destination="ej9-Gb-3Gr" id="u3W-Rn-tti"/>
+                        <outlet property="searchContentsController" destination="ccY-Tp-E2B" id="XZ7-bP-TPj"/>
+                        <outlet property="searchResultsDataSource" destination="ccY-Tp-E2B" id="F61-pO-wQB"/>
+                        <outlet property="searchResultsDelegate" destination="ccY-Tp-E2B" id="rUM-s6-AeP"/>
+                    </connections>
+                </searchDisplayController>
+            </objects>
+            <point key="canvasLocation" x="-591" y="1567"/>
+        </scene>
+        <!--Edit User View Controller-->
+        <scene sceneID="nYY-Wq-0e7">
+            <objects>
+                <viewController storyboardIdentifier="EditUser" id="q4f-eR-oUN" customClass="EditUserViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ZnK-o6-T85">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tQh-E9-pFu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-187" y="1567"/>
+        </scene>
+        <!--Create Delivery View Controller-->
+        <scene sceneID="V2T-bD-Ajh">
+            <objects>
+                <viewController storyboardIdentifier="CreateDelivery" id="y7x-mc-HzS" customClass="CreateDeliveryViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="yIG-fq-xXG">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2R9-ht-6bV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="589" y="1569"/>
+        </scene>
+        <!--Create User View Controller-->
+        <scene sceneID="x9N-lC-KDZ">
+            <objects>
+                <viewController storyboardIdentifier="CreateUser" id="37Q-zM-w1u" customClass="CreateUserViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="7ri-tM-3wL">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yQp-70-zpb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="575" y="881"/>
+        </scene>
+        <!--Login View Controller-->
+        <scene sceneID="5">
+            <objects>
+                <viewController storyboardIdentifier="Login" id="2" customClass="LoginViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3">
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <navigationItem key="navigationItem" id="bCf-Oz-bqV"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-287" y="-22"/>
+        </scene>
+        <!--Monitor View Controller-->
+        <scene sceneID="e6W-TB-nBd">
+            <objects>
+                <viewController storyboardIdentifier="Monitor" id="f0Q-DY-RYh" customClass="MonitorViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fyQ-Fv-eLo">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ce0-5q-wYV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="884" y="71"/>
+        </scene>
+        <!--Delivery Detail View Controller-->
+        <scene sceneID="ocq-mn-O5V">
+            <objects>
+                <viewController storyboardIdentifier="DeliveryDetail" id="hMH-de-pLa" customClass="DeliveryDetailViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="7TP-c1-vS6">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PMO-hk-sTa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1460" y="263"/>
+        </scene>
+        <!--Vendor Exclusive View Controller-->
+        <scene sceneID="Ncn-Kh-Scp">
+            <objects>
+                <viewController storyboardIdentifier="VendorExclusive" id="Dwe-Vl-Yni" customClass="VendorExclusiveViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="XTh-y1-tuT">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qxb-cA-cGX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1278" y="1307"/>
+        </scene>
+        <!--Possible User View Controller-->
+        <scene sceneID="Oaw-Qd-wQA">
+            <objects>
+                <viewController storyboardIdentifier="PossibleUser" id="nc5-x5-WhQ" customClass="PossibleUserViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="mMU-Pd-vbv">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8P7-NU-XO3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="948" y="867"/>
+        </scene>
+        <!--Express Delivery View Controller-->
+        <scene sceneID="hXx-6I-dg7">
+            <objects>
+                <viewController storyboardIdentifier="ExpressDelivery" id="2l7-8S-v4D" customClass="ExpressDeliveryViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="gAg-Hd-bKN">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DmP-NK-zDf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="468" y="-17"/>
+        </scene>
+        <!--Data Collector Exclusive View Controller-->
+        <scene sceneID="s16-ui-Fus">
+            <objects>
+                <viewController storyboardIdentifier="DataCollector" id="Vvl-tT-4sG" customClass="DataCollectorExclusiveViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="VUk-xt-tQc">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Hyy-yt-Cs0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="980" y="-745"/>
+        </scene>
+        <!--Report View Controller-->
+        <scene sceneID="a7i-ob-tcg">
+            <objects>
+                <viewController storyboardIdentifier="Report" id="BBE-eC-bhv" customClass="ReportViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="t5h-3I-P5a">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x9l-Xn-X7O" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1422" y="-493"/>
+        </scene>
+        <!--User Search View Controller-->
+        <scene sceneID="P50-KJ-nPe">
+            <objects>
+                <viewController storyboardIdentifier="UserList" id="ACF-07-MI7" customClass="UserSearchViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="xND-wL-Qiu">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="singleLineEtched" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" id="Gi6-2K-uWR">
+                                <rect key="frame" x="0.0" y="86" width="326" height="482"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="ACF-07-MI7" id="n6j-vM-VUr"/>
+                                    <outlet property="delegate" destination="ACF-07-MI7" id="nzn-pS-QIg"/>
+                                </connections>
+                            </tableView>
+                            <view contentMode="scaleToFill" id="E8D-VT-vW9">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="88"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bordered" selectedSegmentIndex="0" id="uK4-PB-IWa">
+                                        <rect key="frame" x="11" y="52" width="298" height="29"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <segments>
+                                            <segment title="Nombre"/>
+                                            <segment title="Teléfono"/>
+                                            <segment title="Indicación"/>
+                                            <segment title="Dirección"/>
+                                        </segments>
+                                        <connections>
+                                            <action selector="segmentedControlIndexChanged:" destination="ACF-07-MI7" eventType="valueChanged" id="c7D-pD-irs"/>
+                                        </connections>
+                                    </segmentedControl>
+                                    <searchBar contentMode="redraw" id="nfI-wH-sRX">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                        <connections>
+                                            <outlet property="delegate" destination="ACF-07-MI7" id="7M1-gm-owi"/>
+                                        </connections>
+                                    </searchBar>
+                                </subviews>
+                                <color key="backgroundColor" red="0.12941176469999999" green="0.12941176469999999" blue="0.12941176469999999" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <connections>
+                        <outlet property="headerContainer" destination="E8D-VT-vW9" id="RKK-iA-LFj"/>
+                        <outlet property="leftSearchBar" destination="nfI-wH-sRX" id="N3n-LB-Zfu"/>
+                        <outlet property="searchDisplayController" destination="gMW-3W-Nyb" id="RGm-R5-aem"/>
+                        <outlet property="segmentedControl" destination="uK4-PB-IWa" id="1BP-hR-nhh"/>
+                        <outlet property="tableview" destination="Gi6-2K-uWR" id="Nbs-XY-HgP"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="koE-GR-TOY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <searchDisplayController id="gMW-3W-Nyb">
+                    <connections>
+                        <outlet property="delegate" destination="ACF-07-MI7" id="W4f-Ss-uA4"/>
+                        <outlet property="searchBar" destination="nfI-wH-sRX" id="KZr-9J-4JY"/>
+                        <outlet property="searchContentsController" destination="ACF-07-MI7" id="9Eq-Ho-i9t"/>
+                        <outlet property="searchResultsDataSource" destination="ACF-07-MI7" id="cuo-GA-U0B"/>
+                        <outlet property="searchResultsDelegate" destination="ACF-07-MI7" id="Xrl-1d-lUL"/>
+                    </connections>
+                </searchDisplayController>
+            </objects>
+            <point key="canvasLocation" x="197" y="1567"/>
+        </scene>
+        <!--Map Detail View Controller-->
+        <scene sceneID="CWg-EH-vNQ">
+            <objects>
+                <viewController storyboardIdentifier="MapDetail" id="m9w-g2-Rjc" customClass="MapDetailViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="iXZ-jS-yDx">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" showsUserLocation="YES" id="DQf-Os-tx2">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </mapView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <connections>
+                        <outlet property="mapView" destination="DQf-Os-tx2" id="YC1-y6-shb"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8lH-hA-bum" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1642" y="925"/>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

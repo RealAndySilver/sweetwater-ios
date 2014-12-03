@@ -1,0 +1,38 @@
+//
+//  SearchUserViewController.h
+//  SweetWater
+//
+//  Created by Andres Abril on 17/07/13.
+//  Copyright (c) 2013 iAmStudio. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+#import <QuartzCore/QuartzCore.h>
+#import "ServerCommunicator.h"
+#import "MBProgressHud.h"
+#import "FileSaver.h"
+#import "CreateUserViewController.h"
+
+@protocol SearchUserViewControllerDelegate
+@required
+-(void)userProcessed:(NSDictionary*)user;
+@end
+
+@interface SearchUserViewController : UIViewController<UITextFieldDelegate,UISearchBarDelegate,UIDocumentInteractionControllerDelegate,UITableViewDataSource,UITableViewDelegate,UISearchDisplayDelegate,CreateUserDelegate>{
+    IBOutlet UITableView *tableview;
+    IBOutlet UISegmentedControl *segmentedControl;
+    IBOutlet UIView *headerContainer;
+    IBOutlet UISearchDisplayController *searchDisplayController;
+    IBOutlet UISearchBar *leftSearchBar;
+
+    NSArray *staticArray;
+    NSMutableArray *usersArray;
+    NSMutableArray *arrayNombres;
+    NSMutableArray *arrayTelefonos;
+    NSMutableArray *arrayIndicaciones;
+    NSMutableArray *arrayDirecciones;
+    
+    MBProgressHUD *hud;
+}
+@property(weak,nonatomic)id <SearchUserViewControllerDelegate> delegate;
+@end
